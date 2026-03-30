@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-cli"
+version = "0.1.0"
+description = "CLI weather app with caching"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "fivsky", email = "aleksander.ruslan@gmail.com"}
+]
+dependencies = [
+    "httpx",
+    "typer",
+    "python-dotenv"
+]
+
+[project.scripts]
+weather = "weather:app"
