@@ -25,10 +25,12 @@ pip install -r requirements.txt
 
 text
 API_KEY=ваш_ключ_сюда
+
 🛠️ Использование
 bash
 python weather.py Москва
 python weather.py London --force
+
 📁 Структура
 text
 weather-cli/
@@ -37,5 +39,6 @@ weather-cli/
 ├── .env             # API-ключ (не в git)
 ├── requirements.txt
 └── README.md
+
 📝 Лицензия
 MIT
